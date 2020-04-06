@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Screens">
+      <UniqueIdentifier>{55830fee-73e7-41d7-9375-e33080e22898}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="background">
+      <UniqueIdentifier>{a8471963-a9e6-4d26-a71f-9b01a9cbc376}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="player">
+      <UniqueIdentifier>{cef8471a-4d2e-4c60-86fe-2a67df54e875}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\screens\WindowInit.cpp">
+      <Filter>Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\main.cpp" />
+    <ClCompile Include="..\src\background\background.cpp">
+      <Filter>background</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\player\player.cpp">
+      <Filter>player</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\screens\WindowInit.h">
+      <Filter>Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\background\background.h">
+      <Filter>background</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\player\player.h">
+      <Filter>player</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
